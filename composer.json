@@ -1,6 +1,15 @@
 {
-  "require": {
-    "php": "^7.1",
-    "chillerlan/php-qrcode": "^2.0"
-  }
+    "name": "civicrm/eventinvitation",
+    "description": "Event Invitation",
+    "type": "civicrm-extension",
+    "license": "AGPL-3.0-only",
+    "authors": [
+        {
+            "name": "SYSTOPIA",
+            "email": "endres@systopia.de"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "5.0.3"
+    }
 }
