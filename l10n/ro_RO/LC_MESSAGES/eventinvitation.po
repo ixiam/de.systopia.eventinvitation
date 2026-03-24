@@ -1,0 +1,212 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: de.systopia.eventinvitation\n"
+"POT-Creation-Date: 2021-02-09 18:59+0100\n"
+"Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Your Invitation PDFs are ready for download."
+msgstr "PDF-urile invitației sunt gata pentru descărcare."
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Download"
+msgstr "Descărcare"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Back to Search"
+msgstr "Înapoi la căutare"
+
+#: CRM/Eventinvitation/Form/Download.php
+#: CRM/Eventinvitation/Queue/Runner/PdfGenerator.php
+msgid "Invitation-%1.pdf"
+msgstr "Invitatie-%1.pdf"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Invitations.zip"
+msgstr "Invitatii.zip"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "ZIP file couldn't be generated. Contact the author."
+msgstr "Fișierul ZIP nu a putut fi generat. Contactați autorul."
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Error downloading PDF files: %1"
+msgstr "Eroare la descărcarea fișierelor PDF: %1"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Download Error"
+msgstr "Eroare de descărcare"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Invalid or expired invite code"
+msgstr "Cod de invitație invalid sau expirat"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Registration for '%1'"
+msgstr "Înregistrare pentru '%1'"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Congratulations! You have successfully registered for the event \"%1\"!"
+msgstr "Felicitări! V-ați înregistrat cu succes pentru \"%1\"!"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Do you want to register for the event \"%1\"?"
+msgstr "Doriți să vă înregistrați pentru evenimentul \"%1\"?"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Register"
+msgstr "Înregistrare"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Event Invitation Configuration"
+msgstr "Configurarea invitației la eveniment"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Use a custom registration endpoint"
+msgstr "Utilizați un punct final de înregistrare personalizat"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Url of custom registration endpoint:"
+msgstr "Adresa URL a punctului final de înregistrare personalizat:"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Enter a valid web address beginning with 'http://' or 'https://'."
+msgstr "Introduceți o adresă web validă care începe cu 'http://' sau 'https://'."
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "The link must include the placeholder <code>{token}</code>."
+msgstr "Link-ul trebuie să includă substituentul <code>{token}</code>."
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Save"
+msgstr "Salvează"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Inviting %1 Contacts"
+msgstr "Invitarea a %1 contacte"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Event"
+msgstr "Eveniment"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Generate PDFs instead of sending e-mails."
+msgstr "Generați PDF-uri în loc să trimiteți e-mailuri."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Template"
+msgstr "Șablon"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "E-mail sender address"
+msgstr "Adresa de e-mail a expeditorului"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Participant role"
+msgstr "Rolul participantului"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "There are contacts that have no e-mail address."
+msgstr "Există contacte care nu au adresă de e-mail."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid ""
+"There are contacts that are participants with a status other than \"Invited"
+"\"."
+msgstr "Există contacte care sunt participanți cu un statut diferit de 'Invitat'."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid ""
+"The given template doesn't contain any of the code tokens for the invitation "
+"URL."
+msgstr "Șablonul dat nu conține niciunul dintre jetoanele de cod pentru adresa URL a invitației."
+
+#: CRM/Eventinvitation/Queue/Runner/Job.php
+msgid "Processing contacts %1 to %2."
+msgstr "Se procesează contactele de la %1 la %2."
+
+#: CRM/Eventinvitation/Queue/Runner/Job.php
+msgid "Registration QR Code"
+msgstr "Cod QR de înregistrare"
+
+#: CRM/Eventinvitation/Queue/Runner/Launcher.php
+msgid "Sending e-mails."
+msgstr "Se trimit e-mailuri."
+
+#: CRM/Eventinvitation/Queue/Runner/Launcher.php
+msgid "Generating PDFs."
+msgstr "Se generează PDF-uri."
+
+#: CRM/Eventinvitation/Queue/Runner/PdfGenerator.php
+msgid "PDF Generation Failed"
+msgstr "Generarea PDF a eșuat"
+
+#: CRM/Eventinvitation/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Actualizați %1 la revizia %2"
+
+#: CRM/Eventinvitation/Upgrader.php
+msgid "Invited"
+msgstr "Invitat"
+
+#: eventinvitation.php
+msgid "Invite to event"
+msgstr "Invită la eveniment"
+
+#: templates/CRM/Eventinvitation/Form/Settings.hlp
+msgid ""
+"Activate using a custom target link. Otherwise the build-in page is used."
+msgstr "Activați utilizând un link țintă personalizat. În caz contrar, se utilizează pagina încorporată."
+
+#: templates/CRM/Eventinvitation/Form/Settings.hlp
+msgid ""
+"You can provide a custom URL to link to another registration endpoint. The "
+"URL must start with 'http://' or 'https://' and contain the the placeholder "
+"<code>&lbrace;token&rbrace;</code>."
+msgstr "Puteți furniza o adresă URL personalizată pentru a face legătura cu un alt punct final de înregistrare. Adresa URL trebuie să înceapă cu 'http://' sau 'https://' și să conțină substituentul <code>&lbrace;token&rbrace;</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"The template chosen here <strong>must</strong> contain the <code>&#123;"
+"$qr_event_invite_code&#125;</code> token. It contains the personalised "
+"invitation link."
+msgstr "Șablonul ales aici <strong>trebuie</strong> să conțină jetonul <code>&#123;$qr_event_invite_code&#125;</code>. Acesta conține linkul de invitație personalizat."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid "Beyond that, the following special tokens are available:"
+msgstr "În afară de aceasta, sunt disponibile următoarele jetoane speciale:"
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$event.xxx&#125;</code>: fields of the given event. For the "
+"available 'xxx' field names, check the API explorer with <code>Event.get</"
+"code>."
+msgstr "<code>&#123;$event.xxx&#125;</code>: câmpurile evenimentului respectiv. Pentru numele de câmpuri 'xxx' disponibile, consultați exploratorul API cu <code>Event.get</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$qr_event_invite_code_data&#125;</code>: QR-Code date to be used "
+"in as <code>src</code> in an html <code>img</code> tag."
+msgstr "<code>&#123;$qr_event_invite_code_data&#125;</code>: Date cod QR care urmează să fie utilizate ca <code>src</code> într-o etichetă html <code>img</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$qr_event_invite_code_img&#125;</code>: QR-Code <code>img</code> "
+"element."
+msgstr "<code>&#123;$qr_event_invite_code_img&#125;</code>: elementul cod QR <code>img</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.tpl
+msgid "Template Help"
+msgstr "Ajutor pentru șablon"
